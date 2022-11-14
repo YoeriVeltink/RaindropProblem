@@ -61,7 +61,7 @@ class World{
 
     static void Main(string[] args){
 
-        int interRaindropDistance = int.Parse(args[0]); //10 centimeter in millimeters
+        int interRaindropDistance = int.Parse(args[0]); //in millimeters
         int travelDistance = 100000; //100 meters in millimeters
 
         Human testSubject1 = new Human(1000); //walking
