@@ -34,7 +34,6 @@ class World{
 
         foreach (Raindrop raindrop in raindrops)
         {
-            raindrop.move(deltaTime);
             if (raindrop.xPos > testSubject.getLeftBorder() && raindrop.xPos < testSubject.getRightBorder()
                 && raindrop.yPos > testSubject.getBottomBorder() && raindrop.yPos < testSubject.getTopBorder())
             {
